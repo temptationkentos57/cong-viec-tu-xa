@@ -6,7 +6,7 @@ app.use(express.json());
 app.use(require('cors')());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to Remote Work!');
+    res.send('Welcome to the Remote Work API!');
 });
 
 app.listen(port, () => {
